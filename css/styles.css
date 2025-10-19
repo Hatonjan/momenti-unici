@@ -409,8 +409,9 @@ padding: 0 20% 1rem;
 
 
     .hero-content {
+        text-shadow: 1px 1px 1px var(--gold-shadow);
         color: var(--text-color);
-        font-size: .625rem;
+        font-size: .875rem;
         left: 4%;
         top: -5%;
     }
