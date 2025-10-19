@@ -404,7 +404,7 @@ padding: 0 20% 1rem;
 
     /* Hero section */
     .hero-section {
-        overflow: visible;
+        overflow:inherit ;
     }
 
 
@@ -432,10 +432,9 @@ padding: 0 20% 1rem;
     /* About section */
     #about h2{
         font-family: 'Sedan SC';
-        text-align: center;
-        font-size: 1.625rem;
-        padding-bottom: 4rem;
-        
+        text-align: left;
+        font-size: 1.75rem;
+        padding: 0 2rem 2rem;
     }
 
     .about-story {
