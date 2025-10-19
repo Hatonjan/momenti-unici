@@ -34,7 +34,7 @@ header {
 
 .hero {
     background: url(the-nine.png) center / cover no-repeat;
-    min-height: 100vh;
+    height: 100vh;
     font-family: 'Cinzel Decorative';
     text-align: center;
     font-size: 2rem;
@@ -66,4 +66,17 @@ footer p {
 
 footer a{
     color: #6d6d6d;
+}
+
+@media(max-width: 768px) {
+    header {
+        font-size: 1rem;
+        padding: 2rem 0 4rem;
+    }
+
+    .hero {
+        background: url(the-nine.png) center / 120% no-repeat;
+        font-size: 1rem;
+        height: 40vh;
+    }
 }
