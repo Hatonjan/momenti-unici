@@ -271,7 +271,7 @@ nav a:hover {
 }
 
 .contact-image {
-    max-width: 50%;
+    width: 52%;
 
 }
 
@@ -323,7 +323,7 @@ button:hover {
 /* End of contact */
 
 /* Contact and footer divider (gold line)*/
-.divider-cf {
+.divider-contact-footer {
     width: 100%;
     height: 1px;
     background-color: var(--gold-shadow);
@@ -445,7 +445,7 @@ padding: 0 20% 1rem;
     }
     
     .about-description {
-        max-width: 98%;        
+        width: 93%;        
     }
 
     .about-story img {
@@ -518,7 +518,7 @@ padding: 0 20% 1rem;
     }
 
     .contact-image {
-        max-width: 100%;
+        width: 100%;
 
     }
 
