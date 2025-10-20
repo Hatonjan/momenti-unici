@@ -221,7 +221,13 @@ nav a:hover {
     width: 97%;
 }
 
-.collection h4, p {
+.collection h4 {
+    font-size: 1.5rem;
+    padding-left: .5rem ;
+}
+
+.collection p {
+    font-size: 1rem;
     padding-left: .5rem ;
 }
 /* End of product */
