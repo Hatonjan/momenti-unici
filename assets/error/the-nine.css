@@ -30,6 +30,12 @@ header {
     font-size: 2rem;
     padding: 2rem;
     color: #966e02;
+    transition: color 8s ease;
+}
+
+header h1{
+    transition: text-shadow 24s ease;
+    text-shadow: 4px 4px 16px #bf4600;
 }
 
 .hero {
@@ -38,7 +44,13 @@ header {
     font-family: 'Cinzel Decorative';
     text-align: center;
     font-size: 2rem;
+    transition: background 24s ease;
+}
+
+.hero h2{
     color: #6d6d6d;
+    color: #bf4600;
+    transition: color 32s ease;
 }
 
 .secrete {
