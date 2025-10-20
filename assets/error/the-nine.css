@@ -20,8 +20,12 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: black;
+}
+
+header, .hero {
+    will-change: opacity;
 }
 
 header {
@@ -30,12 +34,15 @@ header {
     font-size: 2rem;
     padding: 2rem;
     color: #966e02;
-    transition: color 8s ease;
+    opacity: 0;
+    text-shadow: 4px 4px 16px #bf4600;
+    animation: title 6s ease-in-out forwards;
+    animation-delay: .5s;
 }
 
-header h1{
-    transition: text-shadow 24s ease;
-    text-shadow: 4px 4px 16px #bf4600;
+@keyframes title {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .hero {
@@ -44,13 +51,15 @@ header h1{
     font-family: 'Cinzel Decorative';
     text-align: center;
     font-size: 2rem;
-    transition: background 24s ease;
+    color: #bf4600;
+    opacity: 0;
+    animation: hero-fade 16s ease-in-out forwards;
+    animation-delay: 3s;
 }
 
-.hero h2{
-    color: #6d6d6d;
-    color: #bf4600;
-    transition: color 32s ease;
+@keyframes hero-fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .secrete {
