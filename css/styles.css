@@ -146,11 +146,16 @@ nav a:hover {
 /*  End of divider */
 
 /* About section */
+#about {
+    margin: 0 4rem;
+}
+
 #about h2{
     font-family: 'Sedan SC';
     text-align: center;
-    font-size: 2.875rem;
+    font-size: 2.75rem;
     padding-bottom: 4rem;
+    letter-spacing: 4px;
 }
 
 .about-images {
@@ -166,26 +171,33 @@ nav a:hover {
 }
 
 .about-story {
-    display: flex;margin: .5%;
+    display: flex;
+    margin: .5% 0;
     gap: .5%;
 }
+
 .about-name {
     font-family: 'Sedan SC';
 }
+
 .about-description {
     border: 1px solid var(--gold-stroke);
-    font-family: 'EB Garamond';
-    font-size: 1.25rem;
     width: 40%;
     padding: 3%;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem .5rem;
+}
+
+.about-description h4 {
+    font-family: 'EB Garamond';
+    font-size: 1.25rem;
+    font-weight: lighter;
 }
 
 .about-story img {
-    width: 60%;
+    width: 59%;
     height: auto;
     border: 1px solid var(--gold-stroke);
-    margin-bottom: 2rem;
+    margin: 0 .5rem 2rem 0;
 }
 /* End of about */
 
@@ -200,7 +212,7 @@ nav a:hover {
 
 /* Product section */
 #products {
-    width: 100%;
+    margin: 0 4rem;
 }
 
 #products h2 {
@@ -251,11 +263,12 @@ nav a:hover {
 
 .contact-container {
     max-width: 50%;    
+    margin-left: 4rem;
 }
 
 .contact-container h2{
     font-family: 'Sedan SC';
-    text-align: center;
+    text-align: left;
     font-size: 1.625rem;
     padding: 1.5rem;
     margin-top: 4%;
@@ -278,7 +291,7 @@ nav a:hover {
 
 .contact-image {
     width: 52%;
-
+    margin-right: 4rem;
 }
 
 .contact-image img{
@@ -437,6 +450,10 @@ padding: 0 20% 1rem;
     /*  End of divider */
 
     /* About section */
+    #about {
+        margin: 0;
+    }
+
     #about h2{
         font-family: 'Sedan SC';
         text-align: left;
@@ -446,12 +463,12 @@ padding: 0 20% 1rem;
 
     .about-story {
         display: block;
-        margin: .5%;
+        margin: .5% !important;
         gap: .5%;
     }
     
     .about-description {
-        width: 93%;        
+        width: 90%;        
     }
 
     .about-story img {
@@ -469,6 +486,7 @@ padding: 0 20% 1rem;
     /* Product section */
     #products {
         width: 100%;
+        margin: 0;
     }
 
     #products h2 {
@@ -501,6 +519,7 @@ padding: 0 20% 1rem;
 
     .contact-container {
         max-width: 100%;    
+        margin: 0;
     }
 
     .contact-container h2{
